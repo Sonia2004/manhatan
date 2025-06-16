@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request, jsonify
 from utils import calcular_ruta_y_restricciones
+from flask_cors import CORS
 
 app = Flask(__name__)
 
